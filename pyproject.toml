@@ -46,5 +46,5 @@ license = { text = "OpenSource" }
 ecomm-assistant = "ecomm_prod_assistant.cli:main"
 
 [tool.setuptools.packages.find]
-where = ["prod_assistant"]
-include = ["ecomm_prod_assistant*"]
+where = ["."]
+include = ["prod_assistant*"]

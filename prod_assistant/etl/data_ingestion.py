@@ -89,6 +89,7 @@ class DataIngestion:
                     "price": self._sanitize_value(row["price"]),
                     "top_reviews": self._sanitize_value(row["top_reviews"])
                 }
+            product_list.append(product_entry)
 
         # Convert dicts into LangChain Document objects
         documents = []
